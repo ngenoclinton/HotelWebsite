@@ -1,0 +1,74 @@
+.explore-container{
+
+}
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+}
+.slider-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+}
+.slider-Image{
+    /* min-width: 500px;
+    max-width: 500px;
+    max-height: 220px;
+    min-height: 250px; */
+    width: 70%;
+    height:60vh;
+}
+.room-Images{
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+}
+.room-image-wrapper{    
+   width: 33%;
+}
+.room-Image{
+    width: 100%;
+    object-fit: cover;
+    min-width: 250px;
+    height: 200px;
+}
+.sliderIcons{
+
+}
+.arrow{
+/* position: absolute; */
+font-size: 40px;
+z-index: 1000;
+}
+.arrow-left {
+    position: absolute;
+    left: 170px;
+   
+}
+.arrow-right {
+    position: absolute;
+    right: 170px;
+}
+.close{
+position: absolute;
+top: 137px;
+right: 185px;
+color: lightgray;
+font-size: 30px;
+}

@@ -1,0 +1,129 @@
+.home-container{
+    background:url(../../Images/abt.jpg) center/cover no-repeat;
+    font-family: 'Muli', sans-serif;
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    z-index: 100;
+    position: relative;
+  }
+.banner{
+    color: var(--mainWhite);
+    background-color: lightgrey;
+    background-color: hsl(89, 43%, 51%);
+    background-color: hsla(89, 43%, 51%, 0.3);
+    background-color: rgb(201, 76, 76);
+    background-color: rgba(201, 76, 76, 0.3);
+    
+    display:flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 350px;
+    max-width: 350px;
+    position: relative;
+    right: 300px;
+    padding: 10px 0;
+    z-index: 50;
+  
+  }
+  .banner-title{
+    -webkit-flow-into: 20px;
+  }
+ .booking-search-Container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .date-picker-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px; 
+  color: black;
+  max-width: 1024px;
+ }
+
+ .search-text{
+  color: lightgoldenrodyellow;
+  cursor: pointer;
+ }
+ .guest-search-Container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+ }
+ .guest-book{
+  display: flex;
+  gap: 10px;
+ }
+ .options{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-item{
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  margin:5px;
+}
+.optionCounter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 5px;
+  color: black;
+  }
+  .optionCounterBtn{
+width: 25px;
+height: 25px;
+border: 1px solid hsla(89, 43%, 51%, 0.3);
+cursor: pointer;
+color: hsl(89, 43%, 51%);
+  }
+  .optionCounterBtn:disabled{
+    cursor:not-allowed; 
+  }
+    .btn{
+      width:100px;
+      height: 30px;
+      padding: 7px ;
+      cursor: pointer;
+      font-size: 15x;
+      text-transform: uppercase;
+      letter-spacing: var(--mainSpacing);
+      background: var(--primaryColor);
+      color: var(--mainBlack);
+      border: 1px solid var(--primaryColor);
+      transition: var(--mainTransition);
+    }
+
+  .btn:hover {
+    background: var(--mainBlack);
+    color: var(--mainWhite);
+    border: 1px solid var(--mainWhite);
+  }
+    button[type=button] {
+      margin-top:20px;
+      border: none;
+      color: #eee;
+    }
+  
+  input[type=date] {
+    padding: 0.25rem 16px;
+    margin-top:0.1rem;
+    border: 2px solid #eee;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:2px;
+    color:goldenrod;
+    width: 200px;
+    height: 30px;
+  }
+ 
+  input:focus {
+    outline: none;
+  }

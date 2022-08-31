@@ -1,0 +1,65 @@
+
+.booking-dates-container{
+        border-bottom: 1px solid rgb(58, 53, 53);
+        border-top:1px solid rgb(58, 53, 53);
+        margin: 30px auto;
+        /* background-color: antiquewhite; */
+        width: 100%;
+        max-width: 950px;  
+}
+ 
+    .checkout-header-container{
+        width: 100%;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-evenly;
+        
+        }
+        .header-block {
+            text-transform: capitalize;
+            width: 20%;
+        }   
+        .dateIn:hover, .dateOut:hover{
+            cursor: pointer;
+        }
+
+.room-booking{
+    display: flex;
+    max-width: 100%;
+}
+.date-range-selected{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+input[type=number]{
+    padding:6px;
+    width: 200px;
+    margin-top:0.1rem;
+    border: 1px solid rgb(134, 150, 163);
+    box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
+    border-radius:2px;
+  }
+    input[type=date] {
+      padding: 0.25rem 16px;
+      margin-top:0.1rem;
+      border: 1px solid rgb(134, 150, 163);
+      box-shadow:0 0 5px 2px rgba(0,0,0,0.06);
+      border-radius:2px;
+    }
+  input:focus {
+    outline: none;
+  }
+  .search-btn{
+    width:100px;
+      height: 30px;
+      padding: 7px ;
+      cursor: pointer;
+      font-size: 15x;
+      text-transform: uppercase;
+      letter-spacing: var(--mainSpacing);
+      background: var(--primaryColor);
+      color: var(--mainBlack);
+      border: 1px solid var(--primaryColor);
+      transition: var(--mainTransition);
+  }

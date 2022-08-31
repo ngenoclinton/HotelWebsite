@@ -1,0 +1,163 @@
+.search-section{
+    width: 85%;
+    /* background-color:rgb(250, 249, 245);*/
+    box-shadow: 5px 5px solid rgb(27, 27, 27);
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    border-bottom: 1px solid black;
+    /* background-color: brown; */
+    max-width: 950px;
+    z-index: 0;
+}
+.search-section.listMode{
+    top: 10px;
+    right: 20px;
+    /* max-width: 900px; */
+}
+.rooms-search-title{
+    font-size: 30px; 
+    /* max-width: 950px; */
+}
+.search-rooms{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+    /* background-color: blue; */
+    padding: 10px;
+    z-index: 5;
+}
+/* .search-rooms.listMode{
+/* right: 60px; */
+/* max-width: 900px; 
+} */
+.rooms-search-container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+gap: 20px;
+width: 100%;
+height: 215px;
+/* background-color: burlywood; */
+max-width: 1024px;
+border: 1px solid black;
+position: relative;
+padding: 10px;
+margin-bottom: 20px;
+}
+.rooms-search-container.listMode{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    /* background-color: burlywood;*/
+}
+.search-item{
+    /* margin-top: 15px;
+    margin-bottom: 35px; */
+    /* background-color: bisque; */
+    position: relative;
+}
+.search-item.si-image.listMode{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.more-btn{
+  padding: 6px 10px;
+  width: 100px;
+  cursor: pointer;
+  font-size: 15x;
+  /* text-transform: uppercase; */
+  letter-spacing: var(--mainSpacing);
+  background: var(--primaryColor);
+  color: var(--mainBlack);
+  color: white;
+  border: 1px solid var(--primaryColor);
+  transition: var(--mainTransition);
+}
+.si-image{
+    flex: 5;
+    background-color: bisque;
+    height: 99%;
+}   
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 191px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    object-fit: cover;
+    border-radius: 2px;
+    /* background-color: bisque; */
+  }
+  .image.listMode{
+    height:191px;
+    width: 200px;
+    }
+    .search-item:hover .image{
+        opacity: 0.5;
+        /* color: bisque; */
+      }
+  .btn-text {
+    background-color: gray;
+    color: white;
+    font-size: 14px;
+    padding: 5px 5px;
+    transition: .5s ease;
+    border: none;
+    opacity: 0;
+    position: absolute;
+    width: 100px;
+    top: 177px;
+    left: 191.9px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  .btn-text.more-btn.listMode{
+    top: 178px;
+    left: 150px;
+  }
+  .search-item:hover .btn-text{
+    opacity: 1;
+  }
+  .dsc-container{
+    display: flex;
+  }
+.description{
+    flex: 10;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+    height: 160px;
+    /* background-color: aqua; */
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px;
+    float: inline-start; */
+}
+.siDesc{
+    display: flex;
+    margin-bottom: 10px;
+}
+/* .desc{
+    background-color: #8888; 
+    width: max-content;
+     float: left;
+} */
+.description.listMode{
+    border-bottom: none;
+}
+.s-price{
+flex: 3;
+display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-transform: capitalize;
+    font-size: 20px;
+/* background-color: burlywood; */
+}
+/* .search-item.s-price.listMode{
+
+} */

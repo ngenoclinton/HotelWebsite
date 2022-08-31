@@ -1,0 +1,63 @@
+.rooms-container{
+display: flex;  
+flex-direction: column;
+position: relative;
+}
+/*  */
+.room-explore-header{
+width: 100%;
+height: 300px;
+display: flex;
+gap: 60px;
+flex-direction: row;
+/* justify-content: space-evenly; */
+/* background-color: aqua; */
+}
+.room-explore-header.listMode{
+gap: 100px;
+right: 70px;
+max-width: 800px;
+}
+.rooms-icon{
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    border-radius: 1px;
+}
+.rooms-icon.listMode{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    left: 20px;
+}
+.rooms-icon h2{
+    position: relative;
+    top: 250px;
+    left: 10px;
+    font-size: 30px;
+}
+.rooms-icon.listMode h2{
+    top: 200px;
+}
+.rooms-icon-image{
+  min-width: 700px;
+  height: 300px;
+  position: relative;
+  right: 100px;
+  top: 50px;
+}
+.rooms-icon-image.listMode{
+    max-width: 500px;
+    height: 250px;
+    right: 70px;
+}
+.room-type-explorer{
+    position: relative;
+    top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}

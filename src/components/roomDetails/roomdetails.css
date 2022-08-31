@@ -1,0 +1,86 @@
+
+.details-container{
+    max-width: 950px;
+}
+.bvt{
+  margin-top: 80px;
+  width: 100%;
+  font-size: 30px;
+}
+.bvtl{
+  padding-right: 10px;
+}
+.vertical{
+  color: black;
+  font-size: 2px;
+}
+.details-section{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+  position: relative;
+}
+.details{
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 5;
+  }
+  
+  .details.image-container{
+    width: 600px;
+    width: 100%;
+    border-bottom: none; 
+  }
+  .detail{
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 30px 0;
+  }
+   .dates-detail{
+    flex: 1.8;
+    border: 1px solid black;
+    padding: 20px;
+    height: 350px;
+    width: 50%;
+    position: relative;
+    top: 30px; 
+  }
+ .detail-dates-select{
+  /* background-color: rgb(150, 98, 30);  */
+  }
+  .detail-angle-arrow{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .detail-angle-arrow-ch1{
+    position: absolute;
+    right: 30px;
+  }
+  .detail-angle-arrow-ch2{
+    position: absolute;
+    right: 30px;
+    top: 225px;
+  }
+  .dates-detail>.detail-dates-select> span{
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 400;
+    color: #212529;
+    /* background-color: rgb(201, 180, 180); */
+    border: 1px solid black;
+    /* border-radius: 3px; */
+    /* padding: 5px 80px; */
+}
+  
